@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.17",
+    "vuepress": "^1.9.10",
+    "vuepress-theme-reco": "^1.6.17"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs"
   }
 }

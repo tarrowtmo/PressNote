@@ -4,6 +4,11 @@ heroImage: /images/mona-loading-default.gif
 tagline: 
 actionText: viu一下 →
 actionLink: /blog/
+isShowComments: true	# 展示评论
+categories: 	# 分类
+ - 后端
+tags: 		# 标签
+ - Docker
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
